@@ -26,7 +26,7 @@ sudo apt install nodejs
 ## 启动mitmdump程序
 ```shell
 # 启动无交互功能的抓包程序
-mitmdump -p 6666 -s capture.py
+mitmweb -p 7777 -s capture.py
 ```
 
 ## 把证书文件保存到终端设备

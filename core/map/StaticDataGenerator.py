@@ -34,7 +34,7 @@ class StaticDataGenerator(object):
 
     def _generate_map_cache_path(self, map_hash):
         map_cache_name = "{}.json".format(map_hash)
-        return os.path.join(self._static_map_path, map_cache_name)
+        return os.path.join(self._static_map_path, map_cache_name) # 地图数据路径
 
     @staticmethod
     def _ensure_map_key_sorted(map_cache_data):
